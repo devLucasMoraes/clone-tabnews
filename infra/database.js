@@ -29,7 +29,7 @@ async function getNewClient() {
   return client;
 }
 
-export default {
+export const database = {
   query,
   getNewClient,
 };
